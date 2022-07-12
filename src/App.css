@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: #4b4b4b;
+  min-height: 100rem;
+  padding-bottom: 5rem;
+}
+
+.top-nav {
+  background-color: #272626;
+  height: auto;
+}
+
+.headlines {
+  background-color: rgb(255, 3, 3);
+  height: 7rem;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 12px 1px black;
+}
+
+.App-header {
+  color: white;
+}
+
+.list__item {
+  text-align: center;
+  display: inline-block;
+}
+
+.menu-bar .nav-link {
+  color: white;
+}
+.e {
+  margin-right: 1rem;
+  color: white;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: red;
+}
+
+.Loading__Screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #272626;
+  height: 100vh;
+}
+
+.spinner-border {
+  color: red;
+}

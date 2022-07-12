@@ -1,0 +1,19 @@
+.form {
+    background-color: transparent;
+    color: aliceblue;
+    transition-property: all;
+    transition-duration: 0.3s;
+    width: 50%;
+    text-align: center;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 0.09rem;
+    outline: none
+
+}
+
+.form:focus {
+    width: 85%;
+    border-color: rgb(255, 25, 25);
+}

@@ -1,0 +1,75 @@
+.container-headlines {
+    background-color: aliceblue;
+    font-size: x-large;
+    transition-duration: 0.4s;
+    padding-bottom: 3rem;
+}
+
+.container-headlines:hover {
+    background-color: rgb(255, 46, 46);
+    color: white;
+    box-shadow: 0px 0px 20px 10px rgb(37, 37, 37); 
+    
+}
+
+.modal__box {
+    background-color: #323232;
+}
+
+.modal__box a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.modal__header {
+    transition-duration: 0.3s;
+}
+
+.modal__header:hover {
+    background-color: black;
+    color: black
+}
+
+.read__more {
+    font-size: xx-large;
+    width: 80%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 2rem;
+    top: 1;
+    color: #323232;
+    opacity: 0;
+    justify-content: center;
+}
+
+.read__more:hover {
+    color: rgb(234, 234, 234);
+    opacity: 1;
+    text-shadow: 0px 0px 12px 1px white;
+}
+
+.news__points {
+    color: aliceblue;
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+
+.close__button {
+    background-color: #727272;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    width: 5rem;
+    height: 2rem;
+    transition-duration: 0.3s;
+}
+
+.close__button:hover {
+    background-color: rgb(255, 20, 20);
+    color: white;
+    box-shadow: 0px 5px 8px 1px red;
+}
